@@ -66,6 +66,15 @@ body{
 .purple_heart{
     opacity: 0;
 }
+.emoji_cards:hover > .purple_heart{
+    font-size: 21px;
+    color: transparent;
+    background-image: linear-gradient(180deg, #9356DC,  #ff49da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 100%;
+    transition: all 300ms;
+}
 .div_menu h3{
     width: 40px;
     font-size: 16px;
@@ -77,6 +86,17 @@ body{
 .div_options{
     display: flex;
     flex-direction: column;
+    animation: appear 1500ms;
+}
+@keyframes appear{
+    0%{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .div_choices{
     border-radius: 15px;
@@ -87,6 +107,9 @@ body{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+}
+.div_choices:hover{
+    cursor: pointer;
 }
 .restaurants_names{
     padding: 12px 0 12px 12px;
@@ -130,6 +153,11 @@ body{
     margin-right: -5rem;
     width: 5rem;
     height: 100%;
+    transition: all 400ms;
+}
+.div_choices:hover > .div_validation{
+    margin-right: 0;
+    cursor: pointer;
 }
 .div_order{
     display: flex;
@@ -146,6 +174,14 @@ body{
     color: #FFFFFF;
     margin-bottom: 25px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: transform 400ms;
+}
+.button_rounded:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    opacity: 80%;
+    cursor: pointer;
 }
 .button_gradient{
     background: linear-gradient(180deg, #ff49da , #9356DC );
@@ -171,6 +207,10 @@ footer{
 }
 .div_informations a{
     padding: 5px 0;
+}
+.div_informations a:hover{
+    opacity: 80%;
+    cursor: pointer;
 }
 @media all and (min-width: 768px)
     {
