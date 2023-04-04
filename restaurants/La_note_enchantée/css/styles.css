@@ -204,3 +204,15 @@ footer{
             justify-content: space-around;
         }
     }
+@media all and (min-width: 1181px)
+    {
+        .div_restaurant{
+            margin: -58px 160px 0 160px;
+        }
+        .div_menu{
+            padding: 40px 160px 0 160px;
+        }
+        .div_order{
+            margin: 0 160px;
+        }
+    }
