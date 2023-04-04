@@ -172,3 +172,35 @@ footer{
 .div_informations a{
     padding: 5px 0;
 }
+@media all and (min-width: 768px)
+    {
+        .div_illustration img{
+            height: 420px;
+        }
+        .div_title{
+            justify-content: center;
+        }
+        .div_restaurant{
+            margin: -58px 80px 0 80px;
+        }
+        .div_menu{
+            padding: 40px 80px 0 80px;
+        }
+        .div_order{
+            background-color: #F6F6F6;
+            margin: 0 80px;
+        }
+        footer{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .mini_logo{
+            margin: 0 50px;
+        }
+        .div_informations{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
