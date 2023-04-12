@@ -113,7 +113,7 @@ body{
 }
 .restaurants_names{
     padding: 12px 0 12px 12px;
-    width: 70%;
+    width: 82%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -124,6 +124,9 @@ body{
 .restaurants_names h4{
     margin: 0;
     font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .restaurants_names p{
     margin: 0;
@@ -133,7 +136,7 @@ body{
     overflow: hidden;
 }
 .prices{
-    width: 30%;
+    width: 18%;
     padding: 12px 12px 12px 0;
     display: flex;
     justify-content: flex-end;

@@ -53,15 +53,14 @@ body h2{
 .div_location form{
     display: flex;
     justify-content: center;
-    position: relative;
 }
 .div_location input{
+    width: 50%;
     border: none;
     background-color: transparent;
     font-size: 16px;
     padding: 0;
     display: flex;
-    text-align: center;
     cursor: pointer;
 }
 .div_location input:focus{
@@ -69,8 +68,7 @@ body h2{
 }
 .div_location i{
     font-size: 16px;
-    position: absolute;
-    left: 20PX;
+    padding-right: 10px;
 }
 .section_reservation{
     display: flex;
@@ -152,9 +150,8 @@ body h2{
     font-size: 18px;
     color: #7E7E7E;
 }
-.div_steps:hover > .steps_explications i{
+.div_steps .icone_purple{
     color: #9356DC;
-    
 }
 .steps_explications p{
     margin: 0;
@@ -263,6 +260,8 @@ footer{
 }
 .div_informations a{
     padding: 5px 0;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .div_informations a:hover{
     opacity: 80%;
