@@ -130,7 +130,7 @@ body{
 }
 .restaurants_names p{
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
