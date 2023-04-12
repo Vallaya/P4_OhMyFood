@@ -210,6 +210,8 @@ footer{
 }
 .div_informations a{
     padding: 5px 0;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .div_informations a:hover{
     opacity: 80%;
